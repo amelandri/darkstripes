@@ -1,8 +1,9 @@
 # DarkStripes Octopress theme
 
-**NOT READY FOR USE**
+**It has not been fully tested, please use it at your own risk**
 
-This is an Octopress theme based on my classic theme customization found at http://melandri.net
+This is an Octopress theme based on my "classic" theme customization found at http://melandri.net
+
 Please read http://melandri.net/2012/02/14/octopress-theme-customization/ for more details
 
 ## Installation instructions
@@ -13,6 +14,14 @@ Open your terminal and type
 	$ git clone git://github.com/amelandri/darkstripes.git .themes/darkstripes
 	$ rake install['darkstripes']
 	$ rake generate
+
+## Upgrade instructions
+
+If you need to upgrade the theme use the command
+
+    $ rake update_style[darkstripes]
+
+**Don't* use the `rake install` command otherwise your customization will be overwritten
 
 ## License
 
