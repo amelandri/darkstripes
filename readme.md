@@ -21,7 +21,7 @@ If you need to upgrade the theme use the command
 
     $ rake update_style[darkstripes]
 
-**Don't* use the `rake install` command otherwise your customization will be overwritten
+**Don't** use the `rake install` command otherwise your customization will be overwritten
 
 ## License
 
