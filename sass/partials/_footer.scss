@@ -9,8 +9,12 @@ body > footer {
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;
-  margin-bottom: 3em;
-  @include border-bottom-radius(.4em);
+  
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius:0;
+  margin-bottom: 0;
+
   z-index: 1;
   a {
     @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);

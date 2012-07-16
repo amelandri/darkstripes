@@ -39,14 +39,25 @@ body {
   font-size: 1em;
   @extend .serif;
 }
+
 h1 {
-  font-size: 2.2em;
+  font-size: 1.8em;
   line-height: 1.2em;
 }
 
+h1.external{
+  font-style: italic;
+}
+
+h1 span{
+  font-weight: normal;
+  font-style: normal;
+  color: #E0841B;
+}
+
 @media only screen and (min-width: 992px) {
-  body { font-size: 1.15em; }
-  h1 { font-size: 2.6em; line-height: 1.2em; }
+  body { font-size: 1em; }
+  h1 { font-size: 1.8em; line-height: 1.2em; }
 }
 
 #{headings()}{

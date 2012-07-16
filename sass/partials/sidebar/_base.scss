@@ -5,6 +5,9 @@ aside.sidebar {
   overflow: hidden;
   color: $sidebar-color;
   text-shadow: lighten($sidebar-bg, 8) 0 1px;
+  -moz-border-radius-topright: 0.4em;
+  -webkit-border-radius: 0 0.4em 0 0;
+  border-radius: 0 0.4em 0 0;
   a { @extend .force-wrap; }
   section {
     @extend .sans;
