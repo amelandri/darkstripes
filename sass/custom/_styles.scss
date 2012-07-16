@@ -2,33 +2,31 @@
 // Add styles here to make changes without digging in too much
 
 
-@font-face {
-	font-family: "League";
-	src: url('/font/LeagueGothic.otf');
-}
-
-a:visited, #content .blog-index article h1 a:hover { color: #1863A1; }
-
+/*a:visited, #content .blog-index article h1 a:hover { color: #1863A1; }*/
+/*
 blockquote{
 	color: #555555;
 	font-size: 1em;
 }
+*/
 
 /* ----- main layout ----- */
 
 
-html { background: #262C33 url("/images/line-tile.png"); }
+/*html { background: #262C33 url("/images/line-tile.png"); }*/
 
-body { font-size: 1em; }
+/*body { font-size: 1em; }*/
 
+/*
 body > div { background-image: none; }
 
 body > div > div { background-image: none; }
+*/
 
 
 /* ----- header ----- */
 
-
+/*
 body > header{
 	background: none;
 	padding: 1.6em 0 1em 0
@@ -39,18 +37,23 @@ body > header h1{
 	padding-left: 20px;
 	text-shadow: rgba(0, 0, 0, 0.8) 0 0 8px;
 }
+*/
 
+/*
 body > header h2{
 	font-size: 0.5em;
 	letter-spacing: 1px;
 	margin-top: -1.4em;
 	padding-left: 20px;
 }
+*/
 
+/*
 body > nav {
 	padding-top: .15em;
 	padding-bottom: .15em;
 }
+*/
 
 body > nav a{
 	font-size: 1em;

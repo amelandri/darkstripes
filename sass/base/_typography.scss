@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: "League";
+  src: url('/font/LeagueGothic.otf');
+}
+
 $blockquote: $type-border !default;
 $sans: "Lato", sans-serif;
 $serif: "Lato", sans-serif;
@@ -30,6 +36,7 @@ body > header h2 {
 body {
   line-height: 1.5em;
   color: $text-color;
+  font-size: 1em;
   @extend .serif;
 }
 h1 {
@@ -108,9 +115,10 @@ big { font-size: 1.2em; }
 
 blockquote {
   $bq-margin: 1.2em;
+  color: #555555;
   font-style: italic;
   position: relative;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.5em;
   padding-left: 1em;
   border-left: 4px solid rgba($text-color-light, .5);

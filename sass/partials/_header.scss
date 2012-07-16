@@ -1,18 +1,22 @@
 body > header {
-  background: $header-bg;
   h1 {
     display: inline-block;
     margin: 0;
+    font-size: 2.7em;
+    padding-left: 20px;
+    text-shadow: rgba(0, 0, 0, 0.8) 0 0 8px;
     a, a:visited, a:hover {
       color: $title_color;
       text-decoration: none;
     }
   }
   h2 {
-    margin: .2em 0 0;
+    margin: -1.4em 0 0;
     @extend .sans;
-    font-size: 1em;
+    font-size: 0.5em;
     color: $subtitle-color;
     font-weight: normal;
+    letter-spacing: 1px;
+    padding-left: 20px;
   }
 }

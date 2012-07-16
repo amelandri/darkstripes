@@ -2,14 +2,14 @@ $noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png');
 
 // Main Link Colors
-$link-color: lighten(#165b94, 3) !default;
+$link-color: lighten(#1863A1, 3) !default;
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
 $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
 $main-bg: #f8f8f8 !default;
-$page-bg: #252525 !default;
+$page-bg: #262C33 !default;
 $article-border: #eeeeee !default;
 
 $header-bg: #333 !default;
@@ -76,10 +76,8 @@ html {
 }
 body {
   > div {
-    background: $sidebar-bg $noise-bg;
     border-bottom: 1px solid $page-border-bottom;
     > div {
-      background: $main-bg $noise-bg;
       border-right: 1px solid $sidebar-border;
     }
   }
