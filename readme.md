@@ -1,6 +1,6 @@
 # DarkStripes Octopress theme
 
-**It has not been fully tested, please use it at your own risk**
+**This theme is NOT COMPLETE, please use it at your own risk**
 
 This is an Octopress theme based on my "classic" theme customization found at http://melandri.net
 

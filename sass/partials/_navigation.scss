@@ -51,6 +51,7 @@ body > nav {
     }
     ul li {
       margin: 0;
+      font-size: 0.9em;
     }
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);

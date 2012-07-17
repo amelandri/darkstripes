@@ -8,9 +8,10 @@ $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !defaul
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f8f8f8 !default;
+$main-bg: #f2f2f2 !default;
 $page-bg: #262C33 !default;
 $article-border: #eeeeee !default;
+$content-bg: #F8F8F8;
 
 $header-bg: #333 !default;
 $header-border: lighten($header-bg, 15) !default;
@@ -75,10 +76,63 @@ html {
   background: $page-bg image-url('line-tile.png') top left;
 }
 body {
+  #main{
+    background: $main-bg;
+  }
+  #content{
+    background: $content-bg;
+  }
   > div {
     border-bottom: 1px solid $page-border-bottom;
     > div {
       border-right: 1px solid $sidebar-border;
     }
+  }
+}
+
+@media only screen and (min-width: 550px) {
+
+  body > header h1{
+    padding-left: 5px;
+  }
+
+  body > header h2 { padding-left: 3px; }
+
+  body > footer { margin-bottom: 3em; }
+}
+
+@media only screen and (min-width: 1040px) {
+ 
+  body > nav {
+    -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius:0.4em;
+    margin-bottom: 2em;
+  }
+
+  body > footer{
+    -moz-border-radius-bottomleft: 0.4em;
+    -moz-border-radius-bottomright: 0.4em;
+    -webkit-border-radius: 0 0 0.4em 0.4em;
+    border-radius: 0 0 0.4em 0.4em;
+  }
+
+  #main{
+    -moz-border-radius-topleft: 0.4em;
+    -moz-border-radius-topright: 0.4em;
+    -webkit-border-radius: 0.4em 0.4em 0 0;
+    border-radius: 0.4em 0.4em 0 0;
+  }
+
+  #content{
+    -moz-border-radius-topleft: 0.4em;
+    -webkit-border-radius: 0.4em 0 0 0;
+    border-radius: 0.4em 0 0 0;
+  }
+
+  #content .blog-index a[rel="full-article"]{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
   }
 }
