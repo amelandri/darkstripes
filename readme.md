@@ -1,8 +1,8 @@
 # DarkStripes Octopress theme
 
-**This theme is NOT COMPLETE, please use it at your own risk**
+**This theme has not been fully tested, so use it at your own risk**
 
-This is an Octopress theme based on my "classic" theme customization found at http://melandri.net
+This is an Octopress theme based on a "classic" theme customization found at http://melandri.net
 
 Please read http://melandri.net/2012/02/14/octopress-theme-customization/ for more details
 
@@ -21,7 +21,7 @@ If you need to upgrade the theme use the command
 
     $ rake update_style['darkstripes']
 
-**Don't** use the `rake install` command otherwise your customization will be overwritten
+**Warning**: if you use the `rake install` command your customizations will be overwritten
 
 ## License
 
