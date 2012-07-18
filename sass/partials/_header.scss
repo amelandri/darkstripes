@@ -4,7 +4,7 @@ body > header {
     display: inline-block;
     margin: 0;
     font-size: 2.7em;
-    padding-left: 20px;
+    padding-left: 0.1em;
     text-shadow: rgba(0, 0, 0, 0.8) 0 0 8px;
     float: left;
     a, a:visited, a:hover {
@@ -19,6 +19,25 @@ body > header {
     span{
       color: blue;
     }
+  }
+  div#logo{
+    margin-top: 0.58em;
+    font-size: 1.9em;
+    color: #f9f9f9;
+  }
+  div#logoText{
+    color: #f1f1f1;
+    letter-spacing: 1px;
+    margin: -1px 0 0 -6px;
+  }
+  div#logoRight{
+    margin-left: -6px;
+  }
+  div#logoLeft, #logoRight{
+    color: #1b88ff;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: normal;
+    font-size: 1.2em;
   }
   h2 {
     margin: -1.4em 0 0;
