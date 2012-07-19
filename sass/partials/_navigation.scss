@@ -14,7 +14,7 @@ body > nav {
       padding: .3em .5em 0;
       font-size: .85em;
       font-family: $sans;
-      line-height: 1.1em;
+      line-height: 1em;
       width: 95%;
       @include border-radius(.5em);
       @include background-clip(padding-box);
