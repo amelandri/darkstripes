@@ -1,10 +1,12 @@
 # DarkStripes Octopress theme
 
-**This theme has not been fully tested, so use it at your own risk**
-
 This is an Octopress theme based on a "classic" theme customization found at http://melandri.net
 
-Please read http://melandri.net/2012/02/14/octopress-theme-customization/ for more details
+Please read http://melandri.net/2012/07/23/darkstripes-octopress-theme-released/ and http://melandri.net/2012/02/14/octopress-theme-customization/ for more details
+
+If you have problems or requests for the theme, please create an Issue here on GitHub. This theme has not been test with Octopress 2.1.
+
+If you use this theme, take two minutes and add it to this page: https://github.com/amelandri/darkstripes/wiki
 
 ## Installation instructions
 
@@ -14,14 +16,6 @@ Open your terminal and type
 	$ git clone git://github.com/amelandri/darkstripes.git .themes/darkstripes
 	$ rake install['darkstripes']
 	$ rake generate
-
-## Upgrade instructions
-
-If you need to upgrade the theme use the command
-
-    $ rake update_style['darkstripes']
-
-**Warning**: if you use the `rake install` command your customizations will be overwritten
 
 ## License
 
