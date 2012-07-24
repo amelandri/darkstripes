@@ -9,11 +9,10 @@ body > footer {
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;
-  
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius:0;
-  margin-bottom: 0;
+  -moz-border-radius:  0 0 0.4em 0.4em;
+  -webkit-border-radius: 0 0 0.4em 0.4em;
+  border-radius:0 0 0.4em 0.4em;
+  margin-bottom: 3em;
 
   z-index: 1;
   a {
