@@ -41,13 +41,13 @@ body > header {
     margin-left: -8px;
   }
   h2 {
-    margin: -1.4em 0 0;
+    margin: -10px 0 0 0;
     @extend .sans;
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: $subtitle-color;
     font-weight: normal;
     letter-spacing: 1px;
-    padding-left: 20px;
     clear: both;
+    float: left;
   }
 }
