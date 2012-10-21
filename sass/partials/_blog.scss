@@ -51,6 +51,12 @@ article {
     @extend .basic-alignment;
     @include shadow-box;
   }
+  .footnotes {
+    font-size: 0.8em;
+    ol li {
+      margin-left: 1.3em;
+    }
+  }
   video, .flash-video { margin: 0 auto 1.5em; }
   video { display: block; width: 100%; }
   .flash-video {
