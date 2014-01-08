@@ -1,5 +1,14 @@
 # DarkStripes Octopress theme
 
+```
+This theme is no longer developed or maintained. I switched to Jekyll and don't have enough spare time 
+to maintain this theme.
+
+Fell free to clone it and keep it going.
+```
+
+
+
 This is an Octopress theme based on a "classic" theme customization found at http://melandri.net
 
 Please read http://melandri.net/2012/07/23/darkstripes-octopress-theme-released/ and http://melandri.net/2012/02/14/octopress-theme-customization/ for more details
